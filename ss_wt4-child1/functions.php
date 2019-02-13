@@ -13,4 +13,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 require get_stylesheet_directory() . '/inc/class-sswt5.php';
 $ssTestimonialsV2 = SSWT5::Instance();
 
-//$ssWT4template = new SSWT4_Template( get_template_directory() . '/templates' );
+
+//require_once "options.php";
