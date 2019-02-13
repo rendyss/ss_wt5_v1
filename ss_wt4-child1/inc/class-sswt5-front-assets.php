@@ -28,9 +28,11 @@ if ( ! class_exists( 'SSWT5_Front_Assets' ) ) {
 			//Include parent's main stylesheet
 			wp_enqueue_style( $parent_name, get_template_directory_uri() . "/style.css" );
 
-			//include main style
+			//include main stylesheet
 			wp_enqueue_style( 'style.css', get_stylesheet_uri(), array( $parent_name ) );
 
+			//Include custom stylesheet
+			wp_enqueue_style( 'sswt5custom.css', $path . '/assets/css/custom.css', array( $parent_name ) );
 		}
 	}
 }
