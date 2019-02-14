@@ -23,7 +23,7 @@ if ( ! class_exists( 'SSWT5' ) ) {
 
 		private function __construct() {
 			$this->load_front_end_assets();
-			$this->load_options_page();
+//			$this->load_options_page();
 			$this->load_template();
 		}
 
